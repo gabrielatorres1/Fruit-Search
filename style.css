@@ -1,0 +1,69 @@
+* {
+ box-sizing: border-box;
+}
+
+:focus {
+ border-bottom-color: orange;
+}
+
+
+  body {
+    background: linear-gradient(90deg, rgb(253, 216, 53), RGB(255, 111, 0));
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensure the body takes up the full viewport height */
+  }
+  
+  /* background: linear-gradient(90deg in oklab, blue, red); */
+
+
+input {
+ width: 100%;
+ padding: 10px;
+ border: none;
+ border-bottom: 2px solid orange;
+ background-color: transparent;
+ color: black;
+ font-size: 16px;
+ outline: none;
+}
+div{
+  /* I added this myself I was thinking that maybe if I add a parent element this would help me center the below child element ? */
+}
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  margin: 50px;
+
+}
+.search-container input,
+.search-container .suggestions {
+  
+}
+.search-container input {
+ /* TODO */
+}
+.search-container .suggestions {
+   /* TODO */
+}
+
+ul {
+  /* TODO */
+}
+ul.has-suggestions {
+  /* TODO */
+}
+ul li {
+  /* TODO */
+}
+ul li:hover {
+  /* TODO */
+}
+
+input {
+   /* TODO */
+}
